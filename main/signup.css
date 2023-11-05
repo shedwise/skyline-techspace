@@ -1,0 +1,281 @@
+
+body{
+    background: gray;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+
+}
+h1{
+    text-transform: capitalize;
+}
+/* my container-form design */
+.container-form{
+    background-color: lightgrey;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    height: 130vh;
+}
+/* here is my user name design */
+input[type=text]{
+    border-radius: 15px;
+    width: 50%;
+    padding: 15px;
+    border: 1px solid gray;
+    text-indent: 20px;
+}
+
+
+input[type=text]:focus{
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+
+::placeholder{
+    color:lightgray;
+    font-size: 20PX;
+     font: 18PX;
+     font-weight: bold;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     padding: 0px 1px;
+     text-transform: capitalize;
+
+}
+
+
+
+.usericon{
+    position: absolute;
+    left: 24%;
+    top: 20%;
+}
+
+
+.form-classes-user{
+    position: relative;
+}
+
+
+/* here is my email design */
+
+input[type=email]{
+    border-radius: 15px;
+    width: 50%;
+    padding: 15px;
+    border: 1px solid gray;
+    text-indent:20px;
+}
+
+
+input[type=email]:focus{
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+
+.emailicon{
+    position: absolute;
+    left: 24%;
+    top: 27%;
+}
+
+.form-classes-email{
+    position: relative;
+    margin-top: 25px;
+
+}
+
+/* here is my phone number styling */
+
+
+input[type=tel]{
+    border-radius: 15px;
+    width: 50%;
+    padding: 15px;
+    border: 1px solid gray;
+    text-indent:20px;
+}
+
+
+
+
+input[type=tel]:focus{
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+
+.phoneicon{
+    position: absolute;
+    left: 24%;
+    top: 27%;
+}
+
+
+/* here is my password style */
+
+input[type=password]{
+    border-radius: 15px;
+    width: 50%;
+    padding: 15px;
+    border: 1px solid gray;
+    text-indent:20px;
+}
+
+
+
+
+input[type=password]:focus{
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+
+.passwordicon{
+    position: absolute;
+    left: 24%;
+    top: 27%;
+}
+
+/* 
+here is my signup styling */
+
+
+input[type=submit]{
+    border-radius: 15px;
+    width: 50%;
+    border: none;
+    text-indent:20px;
+    background-color: #1DA1F2;
+    color:white;
+    font-size: 20PX;
+     font: 18PX;
+     font-weight: bold;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+     text-transform: capitalize;
+}
+
+
+
+
+input[type=submit]:focus{
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid gray
+}
+
+
+
+
+    
+.signupicon{
+    position: absolute;
+    left: 44%;
+    top: 27%;
+}
+
+.form-classes-sign{
+    position: relative;
+    margin: 25px 0px; 
+}
+.form-divider{
+    display: flex;
+align-items: center;
+margin: 20px;
+
+}
+
+.divider-text{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 55px;
+    font-size: 20px;
+}
+.form-divider::before, .form-divider::after{
+content:"";
+padding: 1px 0px;
+background-color:gray;
+flex: 1;
+margin: 20px 0px;
+
+}
+
+.socialmedia{
+    background-color: #3b5998;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.socialmedia:nth-child(2){
+background-color: #1DA1F2;
+}
+
+
+.socialmedia:nth-child(3){
+    background-color:#DB4437;
+    }
+
+    @media(max-width:814px ){
+        .container-form{
+            width: 100%;
+        }
+
+        .socialmedia{
+   margin: 5px;
+   padding: 10px 15px;
+        }
+        
+
+
+input[type=password]{
+    width: 80%;
+    
+}
+
+input[type=text]{ 
+    width: 80%;
+}
+input[type=email]{
+    width: 80%;
+}
+
+input[type=tel]{
+    width: 80%;
+}
+
+
+
+.usericon{
+    left: 9%;
+    }
+    .emailicon{
+        left: 9%;
+    }
+    .phoneicon{
+        left: 9%;
+    }
+
+    .passwordicon{
+        left: 9%;
+    }
+
+
+       
+.signupicon{
+    position: absolute;
+    left: 39%;
+
+}
+
+}
